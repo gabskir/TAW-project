@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Detail Article</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="other_info.html">Other Information</a></li>
+                    <li><a href="article.html">Articles</a></li>
+                    <li><a href="article_detail.html">Article - Details</a></li>
+                    <li><a href="tracks.html">Tracks</a></li>
+                    <li><a href="program.html">Program</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="content">
+                <div class="content-template">
+                    <h2>Article Title</h2>
+                    <p>Author: Author Name</p>
+                    <p>Date: [Date]</p>
+                    <div class="article-details">
+                        <p>This is the detailed content of the article.</p>
+                        <!-- Add more details of the article as needed -->
+                    </div>
+                    <div class="question-form">
+                        <h3>Add a Question</h3>
+                        <form action="#" method="post">
+                            <input type="text" name="question" placeholder="Your question">
+                            <!-- Add login fields or a code input field for authentication -->
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                    <div class="vote-button">
+                        <h3>Vote for this Article</h3>
+                        <button>Vote</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div class="question-form">
+        <h3>Request More Information</h3>
+        <form action="record_request.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <!-- Detail Article Page -->
+    <div class="login-form">
+        <h3>Login to Ask Questions or Vote</h3>
+        <form action="login.php" method="post">
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="password" name="password" placeholder="Your Password" required>
+            <input type="submit" value="Login">
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Conference Name</p>
+        </div>
+    </footer>
+</body>
+</html>
