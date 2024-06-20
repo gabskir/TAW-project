@@ -1,9 +1,9 @@
 <?php
 // Database connection
 $servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "articles_db";
+$username = "global";
+$password = "placeholderPassworD";
+$dbname = "backoffice";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -13,9 +13,8 @@ if ($conn->connect_error) {
 }
 
 // Fetch articles
-$sql = "SELECT a.id, a.title, au.name AS author_name, a.pdf_link
-        FROM articles a 
-        JOIN authors au ON a.author_id = au.id";
+$sql = "SELECT id, title, authors, pdf_link
+        FROM articles ";
 $result = $conn->query($sql);
 
 $articles = [];
