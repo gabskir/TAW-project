@@ -2,7 +2,7 @@ body {
     font-family: "arial";
     margin: 0;
     padding: 0;
-    background-color: #F0F4C3; /* Gold background */
+    background-color: #A5CADF; /* Light blue */
 }
 
 .container {
@@ -12,8 +12,8 @@ body {
 }
 
 header {
-    background-color: #F0F4C3; /* Dark magenta header */
-    color: #212121;
+    background-color: #A5CADF; /* Light blue */
+    color: #1F3344;
     padding: 20px 0;
     text-align: center;
 }
@@ -23,10 +23,9 @@ header h1 {
     padding-top: 5vh;
     margin: 0;
     font-size: 8vh;
-    text-shadow: 2px 2px 4px #212121;
 }
 nav {
-    background-color: #ccdc3966; /* Tomato navigation */
+    background-color: #A5CADF; /* Normal */
     padding: 1vh;
     position: absolute;
     font-size: 2vh;
@@ -53,7 +52,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #212121;
+    color: #1F3344;
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -64,7 +63,7 @@ nav ul li a:hover {
 
 main {
     padding: 20px 0;
-    background-color: #646d25; /* Light pink content */
+    background-color: #1F3344; /* Dark blue */
 }
 
 .content {
@@ -77,7 +76,7 @@ main {
     display: flex;
     flex-direction: column;
     width: calc(70% - 40px);
-    background-color: #ccdc39d9; /* Hot pink template */
+    background-color: #A5CADF; /* Normal */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -86,7 +85,7 @@ main {
 
 .content-template h2 {
     margin-bottom: 20px;
-    color: #212121;
+    color: #1F3344;
     text-align: center;
 }
 
@@ -95,12 +94,21 @@ main {
 }
 
 .content-template article h3 {
-    color: #F0F4C3; /* Dark magenta heading */
+    color: #A5CADF; /* Light blue */
+}
+
+.content-template a {
+    color: #1F3344;
+}
+
+.content-template a:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 footer {
-    background-color: #F0F4C3; /* Dark magenta footer */
-    color: #212121;
+    background-color: #A5CADF; /* Light blue */
+    color: #1F3344;
     text-align: center;
     padding: 10px 0;
     clear: both;
@@ -108,8 +116,8 @@ footer {
 
 .question-form,
 .login-form {
-    background-color: #212121; /* White background */
-    border: 2px dashed #ccdc39d9; /* Orange border */
+    background-color: #1F3344; /* Dark blue */
+    border: 2px dashed #A5CADF; /* Normal */
     padding: 30px;
     margin-top: 20px;
     border-radius: 20px;
@@ -119,7 +127,7 @@ footer {
 .question-form h3,
 .login-form h3 {
     margin-top: 0;
-    color: #F0F4C3; /* Dark magenta heading */
+    color: #A5CADF; /* Light blue */
     text-align: center;
 }
 
@@ -130,7 +138,7 @@ footer {
     width: calc(100% - 20px);
     padding: 15px;
     margin-bottom: 20px;
-    border: 2px solid #ccdc39d9; /* Tomato border */
+    border: 2px solid #A5CADF; /* Normal */
     border-radius: 10px;
 }
 
@@ -139,14 +147,14 @@ footer {
     height: 150px;
     padding: 15px;
     margin-bottom: 20px;
-    border: 2px solid #ccdc39d9; /* Tomato border */
+    border: 2px solid #A5CADF; /* Normal */
     border-radius: 10px;
 }
 
 .question-form input[type="submit"],
 .login-form input[type="submit"] {
-    background-color: #ff4500; /* Orange button */
-    color: #212121;
+    background-color: #1F3344; /* Dark blue */
+    color: #A5CADF;
     border: none;
     padding: 15px 30px;
     cursor: pointer;
@@ -156,17 +164,17 @@ footer {
 
 .question-form input[type="submit"]:hover,
 .login-form input[type="submit"]:hover {
-    background-color: #ccdc39d9; /* Lighter shade of orange */
+    background-color: #A5CADF; /* Normal */
 }
 
 .question-form p,
 .login-form p {
     margin-top: 10px;
-    color: #F0F4C3; /* Dark magenta text */
+    color: #A5CADF; /* Light blue */
 }
 
 .login-form a {
-    color: #ccdc39d9; /* Orange link */
+    color: #A5CADF; /* Normal */
     text-decoration: none;
 }
 
@@ -175,7 +183,7 @@ footer {
 }
 
 header {
-    background-color: #f4f4f4;
+    background-color: #EBF4FF;
     padding: 10px 0;
     border-bottom: 1px solid #ccc;
 }
@@ -188,11 +196,12 @@ header {
 /* Style for the login button */
 #loginBtn {
     padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #1F3344;
+    color: #EBF4FF;
     border: none;
     cursor: pointer;
     font-size: 16px;
+    border-radius: 15px;
 }
 
 /* Style for the modal */
@@ -212,7 +221,7 @@ header {
 
 /* Modal content box */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #A5CADF;
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
